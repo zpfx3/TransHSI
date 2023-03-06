@@ -9,13 +9,13 @@ import torch.nn.parallel
 import numpy as np
 import time
 from torch.autograd.variable import Variable
-from TPPI.models import get_model
-from TPPI.optimizers import get_optimizer
-from TPPI.schedulers import get_scheduler
-from TPPI.loaders.Dataloader_train import get_trainLoader
-from TPPI.utils import get_logger
+from cls.models import get_model
+from cls.optimizers import get_optimizer
+from cls.schedulers import get_scheduler
+from cls.loaders.Dataloader_train import get_trainLoader
+from cls.utils import get_logger
 import auxil
-from TPPP_predict import RunPredict
+from cls_predict import RunPredict
 
 
 def train(cfg, train_loader, val_loader, model, loss_fn, optimizer, device, tr_writer, val_writer, logdir, logger):
