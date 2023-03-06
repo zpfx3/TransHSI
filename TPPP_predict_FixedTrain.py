@@ -1,7 +1,4 @@
-"""
-Evaluating inference time (whole HSI) and classification accuracy (test set) of TPPP-Nets
-评估TPPP-Nets的推理时间(整体HSI)和分类精度(测试集)
-"""
+
 import os
 import torch
 import argparse
