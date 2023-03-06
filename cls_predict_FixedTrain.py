@@ -10,8 +10,8 @@ import yaml
 import scipy.io as sio
 import time
 import auxil
-from TPPI.utils import convert_state_dict
-from TPPI.models import get_model
+from cls.utils import convert_state_dict
+from cls.models import get_model
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 
